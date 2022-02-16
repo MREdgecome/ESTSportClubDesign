@@ -257,7 +257,7 @@ body {
 	
 	.dropdown-contentt {
 	  display: none;
-	  /* position: absolute; */
+	  position: absolute;
 	  background-color: #ffffff;
 	  width: 100%;
 	  right: 0;
