@@ -21,12 +21,12 @@
 }
 .owl-carousel .owl-wrapper{
 	display: none;
-	position: relative;
+	position: inherit;
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
-	position: relative;
+	position: inherit;
 	width: 100%;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{

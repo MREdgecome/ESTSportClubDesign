@@ -182,7 +182,7 @@ body {
   .dropdown-contenttt {
 	display: none;
 	position: absolute;
-    background-color: #2c2929;
+    background-color: #000000;
 	min-width: 124px;
 	max-width: min-content;
 	box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);	z-index: 1;
@@ -211,10 +211,10 @@ body {
 	  box-sizing: border-box;
 	}
 	
-	.navbar-2 {
+	/* .navbar-2 {
 	  overflow: hidden;
 	  background-color: rgba(0,0,0,0.2);
-	  font-family: 'Cairo', sans-serif;		}
+	  font-family: 'Cairo', sans-serif;		} */
 	
 	.navbar-2 a {
 	  float: right;
