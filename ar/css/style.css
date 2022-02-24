@@ -1745,6 +1745,34 @@ td.tw10 {
   -webkit-transition: 0.4s all linear;
   transition: 0.4s all linear;
 }
+.play-btn{
+  width: 50px;
+  position: absolute;
+  top: 34%;
+  cursor: pointer;
+  right: 149px;
+  transition: 00.5s;
+  opacity: 1;
+}
+.pic{
+  width: 100%;
+}
+.video2{
+  width: 95%;
+}
+.play-btn2{
+  width: 50px;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  right: 264px;
+  transition: 00.5s;
+  opacity: 1;
+}
+.sala{
+  height: 320px;
+}
+
 .w-item a:hover img {
   -webkit-transform: scale(1.05, 1.07);
   -ms-transform: scale(1.05, 1.07);
@@ -1760,7 +1788,8 @@ td.tw10 {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
   padding-top: 50%;
   text-align: center;
   filter: alpha(opacity=0);
@@ -2668,14 +2697,14 @@ p.help-block.text-danger li {
   width: 32px;
   cursor: pointer;
   margin-left: 10px;
-  background-color: rgba(255, 0, 0, 0.8);
+  background-color: rgba(28, 100, 13, 0.8);
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url("../images/cd-icon-controller.svg");
 }
 .no-touch #cd-zoom-in:hover,
 .no-touch #cd-zoom-out:hover {
-  background-color: rgba(255, 0, 0, 1);
+  background-color: rgb(22, 94, 19);
 }
 #cd-zoom-in {
   background-position: 50% 0;
@@ -2689,8 +2718,7 @@ p.help-block.text-danger li {
 /* ==========================
 13. Footer
 ============================= */
-.footer {
-}
+
 .f-desc {
   background-color: #252525;
   color: #fff;
@@ -3020,4 +3048,44 @@ p.help-block.text-danger li {
 
 .blug{
   height: 42%;
+}
+
+
+
+/**
+ * Simple fade transition,
+ */
+
+ body video{
+  font-family: helvetica;
+  color: black;
+  text-transform: uppercase;
+  font-size: 2rem;
+    
+}
+
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
 }
