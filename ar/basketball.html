@@ -54,7 +54,6 @@
     <div class="animationload">
         <div class="loader"></div>
     </div>
-    <!-- NAVBAR SECTION -->
     <div class="navbar navbar-main navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -68,9 +67,10 @@
             </div>
             <div class=" container navbar-2">
                 <a href="index.html">الرئيسيه</a>
-
+                <a href="news.html">الاخبار</a>
+                <a href="#news">فيديوهات</a>
                 <div class="dropdown-3">
-                    <button class="dropbtn-3 football">كره القدم
+                    <button onclick="window.location.href='football.html'" class="dropbtn-3 football">كره القدم
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-contenttt">
@@ -87,7 +87,7 @@
                         <a href="chess.html">فريق الشطرنج </a>
                         <a href="#">فريق الهوكي</a>
                         <a href="#">فريق الكره الطائره</a>
-                        <a href="academy.html">فريق كره السله</a>
+                        <a href="basketball.html">فريق كره السله</a>
                         <a href="#">فريف البلياردو</a>
                         <a href="#">فريق الكاراتيه</a>
                         <a href="#">فريق التايكوندو</a>
@@ -100,7 +100,7 @@
                     <div class="dropdown-contenttt">
                         <a href="#">العضويه </a>
                         <a href="#">الاداره</a>
-                        <a href="#">المسؤوليه المجتمعيه</a>
+                        <a href="#">مسؤوليه مجتمعيه</a>
                         <a href="#">الفروع</a>
                         <a href="#">الرحلات</a>
                         <a href="#">الحج</a>
@@ -125,79 +125,64 @@
                     <div class="dropdown-contenttt">
                         <a href="#">عن الاكاديميه </a>
                         <a href="#">الانشطه</a>
-                        <a href="#">اكاديميه كره السله</a>
-                        <a href="#">اكاديميه الكره الطائره</a>
-                        <a href="#">اكاديميه كره اليد</a>
+                        <a href="basketball.html"> كره السله</a>
+                        <a href="#"> الكره الطائره</a>
+                        <a href="#"> كره اليد</a>
                     </div>
                 </div>
-                <a href="#news">فيديوهات</a>
             </div>
         </div>
     </div>
-    <!-- BANNER -->
     <div class="section banner">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="images/slide-1.jpg" alt="...">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="wrap-caption">
-                                <h1 class="caption-heading">نادي ايسترن </h1>
-                                <div class="caption-desc"> اعتاد النادي اللعب في دوري الدرجة الثانية المصري ، وهو ثاني
-                                    أعلى دوري في نظام الدوري المصري لكرة القدم. ومع ذلك ، تمت ترقية Eastern Company إلى
-                                    الدوري المصري الممتاز 2021-22 لأول مرة في تاريخهم ، حيث احتلوا المركز الأول في
-                                    مجموعتهم في دوري الدرجة الثانية المصرية 2020-21. [</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/slide-2.jpg" alt="...">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="wrap-caption">
-                                <h1 class="caption-heading">نادي ايسترن يصعد للدوري الممتاز</h1>
-                                <div class="caption-desc">أعلن علاء عبد العال، المدير الفني للفريق الأول لكرة القدم
-                                    بنادي إيسترن كومبانى، قائمة الفريق التي ستنتظم في معسكر مغلق، استعدادا لمواجهة
-                                    فيوتشر، المقرر لها غدًا الخميس، ضمن منافسات الجولة الرابعة من عمر مسابقة الدوري
-                                    الممتاز.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/slide-3.jpg" alt="...">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="wrap-caption">
-                                <div class="caption-heading">نادي ايسترن كومبانى،</div>
-                                <div class="caption-desc">أعرب محمد الصالح مدافع إيسترن كومباني المعار من القناة عن
-                                    سعادته بإشادة علاء عبد العال المدير الفني للفريق.</div>
-                            </div>
-                        </div>
+        <img class="basket2" src="images/basket20.jpg">
+
+    </div>
+    <div class="section gallery bg-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="page-title">
+                        <h2 class="lead">عن الاكاديميه   </h2>
+                        <div class="border-style"></div>
                     </div>
                 </div>
             </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="fa fa-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="fa fa-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="row ">
+                <div class="col-sm-12 col-md-6">
+                    <div class="w-item">
+                        <!-- <a href="images/child-basket.jpg" title=" كره السله"> -->
+                            <img src="images/child-basket.jpg" alt="" class="img-responsive" />
+                            <div class="project-info">
+
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="w-item">
+                       
+                            <div class="project-info">
+                                <span class="academy2"> أكاديمية نادي  الشرقيه للدخان البدنية «كرة السله»؛ هي مدرسة لتعليم أسس كرة السله وفق الأنظمة الحديثة المتبعة في العالم في كرة السله»؛. يتم القبول في الأكاديمية من سن 4 سنوات وحتى سن 14 سنة، وهي المراحل العمرية الصغيرة التي يمكن تأهيلها لممارسة كرة السله باحتراف مستقبلاً، بشرط التميز في المستوى. يبدأ الموسم في الأكاديمية في شهر يوليو من كل عام وينتهي في شهر أبريل من العام التالي. نظام العمل في الأكاديمية واحد في جميع الأفرع، ولا يختلف من فرع لآخر إلا في بعض الأشياء مثل عدد أيام التدريب ومواعيدها والشئون الداخلية الخاصة بالفرع فقط، ويأتي هذا الاختلاف نتيجة اختلاف الأماكن والظروف. تم افتتاح أول فروع</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+               
+                <div class="loadmore">
+                    <a href="#" title="">للمزيد</a>
+                </div>
+            </div>
+            <div>
+            </div>
         </div>
-        <!-- END CAROUSEL -->
+        <!-- parteners start -->
     </div>
+
+
+   
+
+    </div> 
     <div class="section gallery bg-section">
         <div class="container">
             <div class="row">
@@ -211,8 +196,8 @@
             <div class="row popup-gallery">
                 <div class="col-sm-12 col-md-6">
                     <div class="w-item">
-                        <a href="images/salla.jpg" title=" كره السله">
-                            <img src="images/salla.jpg" alt="" class="img-responsive" />
+                        <a href="images/child-basket.jpg" title=" كره السله">
+                            <img src="images/basket-child.webp" alt="" class="img-responsive" />
                             <div class="project-info">
 
                                 <span class="">بالصور/ سلة الزمالك تهزم الشرقية للدخان وديًا استعدادًا للأهلي </span>
@@ -223,8 +208,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="w-item">
-                        <a href="images/salla.jpg" title=" كره السله">
-                            <img src="images/salla.jpg" alt="" class="img-responsive" />
+                        <a href="images/basket-child.webp" title=" كره السله">
+                            <img src="images/basket-child.webp" alt="" class="img-responsive" />
                             <div class="project-info">
                                 <span class="">بالصور/ سلة الزمالك تهزم الشرقية للدخان وديًا استعدادًا للأهلي </span>
                             </div>
@@ -286,10 +271,11 @@
             <div class="row popup-gallery">
                 <div class="col-sm-12 col-md-6">
                     <div class="w-item">
-                        <a class="popup-youtube video2" href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
+                        <a class="popup-youtube video2"
+                            href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
                             <img src="images/sala.jpg" alt="" class="img-responsive sala">
                             <img src="https://img.icons8.com/fluency/48/000000/circled-play.png" class="play-btn2" />
-                          </a>
+                        </a>
                         <div class="project-info">
                             <!-- <span class="">بالصور/ سلة الزمالك تهزم الشرقية للدخان وديًا استعدادًا للأهلي</span> -->
                         </div>
@@ -298,10 +284,11 @@
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="w-item">
-                        <a class="popup-youtube video2 w-100" href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
+                        <a class="popup-youtube video2 w-100"
+                            href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
                             <img src="images/img-basket.jpg" alt="" class="img-responsive">
                             <img src="https://img.icons8.com/fluency/48/000000/circled-play.png" class="play-btn2" />
-                                 </a>
+                        </a>
                         <div class="project-info">
                             <!-- <span class="">بالصور/ سلة الزمالك تهزم الشرقية للدخان وديًا استعدادًا للأهلي</span> -->
                         </div>
@@ -312,7 +299,8 @@
             <div class="row popup-gallery">
                 <div class="col-sm-12 col-md-4">
                     <div class="w-item">
-                        <a class="popup-youtube video2" href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
+                        <a class="popup-youtube video2"
+                            href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
                             <img src="images/imagesbasket.jfif" alt="" class="img-responsive pic">
                             <img src="https://img.icons8.com/fluency/48/000000/circled-play.png" class="play-btn" />
                         </a>
@@ -324,7 +312,8 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="w-item">
-                        <a class="popup-youtube video2" href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
+                        <a class="popup-youtube video2"
+                            href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
                             <img src="images/imagesbasket1.jfif" alt="" class="img-responsive pic">
                             <img src="https://img.icons8.com/fluency/48/000000/circled-play.png" class="play-btn" />
                             <div class="project-info">
@@ -335,7 +324,8 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="w-item">
-                        <a class="popup-youtube video2" href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
+                        <a class="popup-youtube video2"
+                            href="images/148149393_3650276011730169_6055626883546689168_n.mp4">
                             <img src="images/imagesbasket2.jfif" alt="" class="img-responsive pic">
                             <img src="https://img.icons8.com/fluency/48/000000/circled-play.png" class="play-btn" />
                         </a>
@@ -532,20 +522,7 @@
 
 
 
-    <script>
-        $(document).ready(function () {
-            $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-                disableOn: 700,
-                type: 'iframe',
-                mainClass: 'mfp-fade',
-                removalDelay: 160,
-                preloader: false,
 
-                fixedContentPos: false
-            });
-        });
-
-    </script>
 </body>
 
 </html>
