@@ -51,7 +51,7 @@ $(document).ready(function(){
 	}, 5000);
 
 		/* =================================
-	OWL CAROUSEL
+	popup video 
 	=================================== */
 	$(document).ready(function () {
 		$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({

@@ -2392,6 +2392,10 @@ td.tw10 {
   opacity: 1;
   filter: alpha(opacity=100);
 }
+.subscribe{
+  color: white;
+  font-size: 24px;
+}
 
 /* ==========================
 10. FAQ
